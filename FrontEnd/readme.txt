@@ -1,1 +1,1 @@
-This will contain code for frontend - ReactNative and others.
+This will contain code for frontend - ReactNative and others and feature 1.
