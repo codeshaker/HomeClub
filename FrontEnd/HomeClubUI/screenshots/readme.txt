@@ -1,0 +1,1 @@
+This will contain latest screenshot of different screen of app.

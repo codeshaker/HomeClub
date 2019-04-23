@@ -1,0 +1,19 @@
+# Dependencies
+#
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p12
+*.key
+*.mobileprovision
+
+# Android
+#
+android/.gradle
+android/local.properties
+android/app/build
+
+# Xcode
+## add build files for Xcode when building
+
