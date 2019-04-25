@@ -1,3 +1,3 @@
 import { AppRegistry } from 'react-native';
-import App from './App';
-AppRegistry.registerComponent('HomeClubUI', () => App);
+import Root from './app/Root';
+AppRegistry.registerComponent('HomeClubUI', () => Root);
