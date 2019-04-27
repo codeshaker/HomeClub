@@ -12,9 +12,10 @@ import {
 export default class Launch extends Component {
     
     componentDidMount() {
+        const { navigate } = this.props.navigation;
         setTimeout(
             () => {
-                this.props.navigation.dispatch(resetAction) // navigate('login')
+                navigate('login')
             },
             2*1000
         );
@@ -26,13 +27,6 @@ export default class Launch extends Component {
         )
     }
 }
-
-const resetAction = StackActions.reset({
-    index: 0,
-    actions: [
-        NavigationActions.navigate({routeName: 'login'})
-    ]
-})
 
 const Styles = StyleSheet.create({
     container: {
