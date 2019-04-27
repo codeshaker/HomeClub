@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Logo from '../Components/Logo';
-import { StackActions, NavigationActions } from 'react-navigation';
 
 import {
     Text,

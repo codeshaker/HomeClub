@@ -1,6 +1,7 @@
 import { createStackNavigator, createAppContainer } from "react-navigation";
 import Launch from '../Root/Launch';
 import MobileNumberLogin from '../Screens/MobileNumberLogin';
+import OTPScreen from '../Screens/OTPScreen';
 
 const MainNavigator = createStackNavigator({
     splash: {
@@ -8,6 +9,9 @@ const MainNavigator = createStackNavigator({
     },
     login: {
       screen: MobileNumberLogin
+    },
+    otp: {
+      screen: OTPScreen
     },
    },
     {
