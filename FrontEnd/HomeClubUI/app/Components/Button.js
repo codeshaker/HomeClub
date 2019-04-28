@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withNavigation } from 'react-navigation';
 
 import {
     Text,
@@ -8,11 +9,12 @@ import {
     StyleSheet
 } from 'react-native';
 
-export default class Button extends Component {
+class Button extends Component {    
     render() {
+        const {navigate} = this.props.navigation;
         return (
             <View style={Styles.container}>
-                <TouchableOpacity style={Styles.button}>
+                <TouchableOpacity style={Styles.button} onPress={() => navigate('otp')} >
                     <Text style={Styles.buttonText}>Login / SignUp</Text>
                 </TouchableOpacity>
             </View>
@@ -40,5 +42,7 @@ const Styles = StyleSheet.create({
         paddingVertical: 16
     }
 });
+
+export default withNavigation(Button);
 
 
