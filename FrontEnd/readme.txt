@@ -1,1 +1,1 @@
-This will contain code for frontend - ReactNative and others and Feature 1.
+HomeClubUI for react native apps and HomeClubWeb for web endpoints. 
