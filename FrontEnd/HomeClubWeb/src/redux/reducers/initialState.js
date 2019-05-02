@@ -1,4 +1,5 @@
 export default {
   users: [],
-  workers: []
+  workers: [],
+  authError: null
 };
