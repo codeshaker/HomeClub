@@ -1,6 +1,6 @@
 //import { firebase } from "react-native-firebase";
 import * as actionTypes from "./ActionTypes";
-import { auth } from "../Config/firebase";
+import { firebaseAuth } from "../Config/firebase";
 
 const phoneChanged = text => {
   return {

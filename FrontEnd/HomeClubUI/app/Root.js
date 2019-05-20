@@ -1,7 +1,7 @@
 import React from "react";
 import { Provider } from "react-redux";
-import { Navigator } from "./Navigation/Index";
-import { store } from "./Store/Index";
+import { Navigator } from "./Navigation/index";
+import { store } from "./Store/index";
 
 export default class Root extends React.Component {
   render() {
