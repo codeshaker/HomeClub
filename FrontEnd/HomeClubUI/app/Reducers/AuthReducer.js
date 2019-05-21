@@ -14,8 +14,8 @@ import {
   CLEAR_AUTH
 } from "../Actions/ActionTypes";
 
-const INITIAL_STATE = {
-  phone: "+30",
+export const INITIAL_STATE = {
+  phone: "+91",
   user: null,
   message: "",
   loading: false,

@@ -12,9 +12,15 @@ const config = {
   appId: c.FIREBASE_APPID
 };
 
+export const firebaseAuth = !firebase.apps.length
+  ? firebase.initializeApp(config).auth()
+  : firebase.app().auth();
+
+/*
 firebase.initializeApp(config);
 
 export const database = firebase.database();
-export const auth = firebase.auth();
+export const firebaseAuth = firebase.auth();
 export const provider = new firebase.auth.FacebookAuthProvider();
 export const storage = firebase.storage();
+*/
