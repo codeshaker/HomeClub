@@ -1,4 +1,4 @@
-import * as firebase from "firebase";
+import * as firebase from "react-native-firebase";
 import * as c from "./constants";
 
 // Initialize Firebase
@@ -12,12 +12,7 @@ const config = {
   appId: c.FIREBASE_APPID
 };
 
-export const firebaseAuth = !firebase.apps.length
-  ? firebase.initializeApp(config).auth()
-  : firebase.app().auth();
-
-/*
-firebase.initializeApp(config);
+/*firebase.initializeApp(config);
 
 export const database = firebase.database();
 export const firebaseAuth = firebase.auth();
