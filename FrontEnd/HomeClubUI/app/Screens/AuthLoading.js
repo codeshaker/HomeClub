@@ -6,8 +6,6 @@
  */
 
 import React from "react";
-import { View } from "react-native";
-//import { firebaseAuth } from "../Config/firebase";
 import firebase from "react-native-firebase";
 import Logo from "../Components/Logo";
 

@@ -1,6 +1,4 @@
-//import { firebase } from "react-native-firebase";
 import * as actionTypes from "./ActionTypes";
-//import { firebaseAuth } from "../Config/firebase";
 import firebase from "react-native-firebase";
 
 const phoneChanged = text => {
@@ -15,7 +13,8 @@ const onLoginSuccess = (dispatch, user) => {
     type: actionTypes.LOGIN_SUCCESS,
     payload: user
   });
-  this.props.navigation.navigate("App");
+  console.log("***inside Login success");
+  this.props.navigation.navigate("Location");
 };
 
 const codeChanged = text => {

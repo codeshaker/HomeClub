@@ -6,6 +6,10 @@ import firebase from "react-native-firebase";
 import { onSignOut } from "../Actions/AuthActions";
 
 class HomeScreen extends Component {
+  static navigationOptions = {
+    header: null
+  };
+
   componentDidMount() {
     this.unsubscribe = firebase.auth().onAuthStateChanged(user => {
       this.props.navigation.navigate(user ? "App" : "Auth");

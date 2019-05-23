@@ -28,7 +28,7 @@ class LoginScreen extends Component {
   componentDidMount() {
     this.unsubscribe = firebase.auth().onAuthStateChanged(user => {
       if (user) {
-        this.props.navigation.navigate("App");
+        this.props.navigation.navigate("Location");
       }
     });
   }
