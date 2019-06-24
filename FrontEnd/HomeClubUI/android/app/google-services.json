@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "702526320478",
+    "firebase_url": "https://homeclub-firebase.firebaseio.com",
+    "project_id": "homeclub-firebase",
+    "storage_bucket": "homeclub-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702526320478:android:2d6de8c4389f2bb5",
+        "android_client_info": {
+          "package_name": "com.homeclubui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702526320478-o74l9l1ri86lntpk4f22qnbav3n851mk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfIKhzJ8JYG8hbrfxVlo028Ib1C3vO7x0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702526320478-o74l9l1ri86lntpk4f22qnbav3n851mk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
