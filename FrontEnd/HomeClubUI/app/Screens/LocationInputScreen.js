@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Image, Text } from "react-native";
 import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplete";
 
 class LocationInputScreen extends Component {
@@ -20,7 +19,7 @@ class LocationInputScreen extends Component {
         renderDescription={row => row.description} // custom description render
         onPress={(data, details = null) => {
           // 'details' is provided when fetchDetails = true
-          console.log(data, details);
+          console.log(JSON.stringify(details.geometry.location));
         }}
         getDefaultValue={() => ""}
         query={{

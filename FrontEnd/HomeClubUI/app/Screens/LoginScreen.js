@@ -263,7 +263,7 @@ class LoginScreen extends Component {
 }
 
 const mapStateToProps = state => {
-  console.log(JSON.stringify(state) + "*************");
+  console.log(JSON.stringify(state));
   return {
     auth: state.auth
   };

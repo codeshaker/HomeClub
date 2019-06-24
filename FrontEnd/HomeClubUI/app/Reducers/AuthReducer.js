@@ -92,7 +92,7 @@ const AuthReducer = (state = INITIAL_STATE, action) => {
         message: "Authentication Failed.",
         loading: false,
         password: "",
-        phone: "+30"
+        phone: "+91"
       };
     case LOGOUT:
       return {
